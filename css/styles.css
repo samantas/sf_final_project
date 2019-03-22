@@ -4,6 +4,7 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    color: #333;
 }
 
 html,
@@ -20,6 +21,7 @@ h3,
 h4 {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 900;
+    color: #333;
 }
 
 h1 {
@@ -37,13 +39,15 @@ a {
 
 .container-fluid {
     padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .container {
     padding: 20px;
 }
 
-.container.brand {
+.container.brand,
+.container.top {
     padding: 0 20px 20px;
 }
 
@@ -124,7 +128,6 @@ a {
     line-height: normal;
     text-align: center;
     justify-content: center;
-    color: #fff;
     letter-spacing: .5px;
 }
 
@@ -136,12 +139,13 @@ a {
     position: relative;
     line-height: normal;
     margin: 0 auto;
+    color: #fff;
 }
 
 .score-denom {
     font-size: 16px;
     font-weight: bold;
-
+	color: #fff;
 }
 
 .textile-badge {
@@ -154,4 +158,9 @@ a {
 
 .badge-primary {
     background-color: #9B6A6C;
+}
+
+.page-footer {
+	background-color: #f9f9f9;
+	font-size: 14px;
 }

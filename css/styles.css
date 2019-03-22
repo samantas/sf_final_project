@@ -191,6 +191,14 @@ a:hover {
     letter-spacing: .5px;
 }
 
+.score.green {
+	background-color: #509408;
+}
+
+.score.red {
+	background-color: #940808;
+}
+
 .score-text {
     font-size: 30px;
     font-weight: bold;

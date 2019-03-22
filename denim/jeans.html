@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Sustainability Scanner | Denim Jeans - Levi's</title>
+    <title>Denim Jeans</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.css">
@@ -12,81 +12,95 @@
 </head>
 
 <body>
-    <!-- Navigator at the top -->
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">Sustainability Scanner</a>
-        <form class="form-inline">
-            <a class="btn btn-outline-success" href="../index.html">How We Score</a>
-        </form>
+    <nav class="navbar">
+        <a class="navbar-logo">sustainly</a>
+        <a class="nav-item" href="../index.html">How We Score</a>
     </nav>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row image-display">
             <div class="col img_center spacing">
-                <img class="image" src="https://vestiairecollective.imgix.net/produit/5058392-1_1.jpg">
+                <img class="image" src="../img/levijeans.JPG">
             </div>
         </div>
-        <div class="row">
-            <br>
-            <div class="col-9 center">
-                <h1>Sustainability Score</h1>
-            </div>
-            <div class="col-2 center">
+        <div class="container top">
+            <div class="row top">
+                <div class="row-item sus-score">
+                    <h1>Sustainability Score</h1>
+                </div>
                 <div class="score">
-                    <h2>80</h2>
+                    <span class="score-text">8.0</span>
+                    <span class="score-denom">/10</span>
                 </div>
             </div>
         </div>
-        <div class="underscore"></div>
+        <div class="container brand">
+            <div class="row">
+                <div class="row-item">
+                    <h3>Levi's</h3>
+                </div>
+            </div>
+            <div class="row">
+                Levi's is known for ... They don't do a great job at ... They do a pretty good job at ...
+            </div>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-4 center spacing">
-                    Brand
+                <h3>Score Breakdown</h3>
+            </div>
+            <div class="row column">
+                <div class="row-item">
+                    Earth: 3 out of 5
                 </div>
-                <div class="col-8 center">
-                    <!-- Brand here -->
-                    Levi's
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row column">
+                <div class="row-item">
+                    Humans: 4 out of 5
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row column">
+                <div class="row-item">
+                    Animals: 4 out of 5
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 center">
-                    Textiles
-                </div>
-                <div class="col-8 center">
-                    <!-- Textiles here -->
-                    100% Denim
+                <div class="row-item">
+                    <h3>Textiles</h3>
                 </div>
             </div>
+            <div class="row">
+                <div class="textile-badge">
+                    <span class="badge badge-pill badge-primary">100% Denim</span>
+                </div>
+            </div>
+            <div class="row">
+                Short description about denim goes here.
+            </div>
         </div>
-        <div class="underscore"></div>
         <div class="container">
             <div class="row">
-                <div class="col-4 center spacing">
-                    Earth
-                </div>
-                <div class="col-8 center">
-                </div>
+                <h2>Should you buy?</h2>
+                In the end, it's up to you! This piece has a pretty good score, but we recommend checking out
             </div>
-            <div class="row">
-                <div class="col-4 center spacing">
-                    Humans
-                </div>
-                <div class="col-8 center">
-                </div>
+            <div class="row row-wechat">
+                <!-- <h2 class="title-wechat">Back to scanner</h2> -->
+                <a href="weixin://" class="btn btn-primary a-wechat">Back to Scanner</a>
             </div>
-            <div class="row">
-                <div class="col-4 center">
-                    Animals
-                </div>
-                <div class="col-8 center">
-                </div>
-            </div>
-        </div>
-        <div class="underscore"></div>
-        <div class="container center">
-            <h2 class="spacing">Should you buy?</h2>
-            <p>In the end, it's up to you! This piece has a pretty good score, but we recommend checking out</p>
         </div>
     </div>
+    <footer class="page-footer">
+        <div class="footer-copyright text-center py-3">
+            Samanta & Tiger © 2019
+        </div>
+    </footer>
 </body>
 
 </html>

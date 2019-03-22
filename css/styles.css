@@ -26,20 +26,36 @@ h4 {
 
 h1 {
     font-size: 30px;
+}
 
+h2 {
+    font-size: 26px;
 }
 
 h3 {
+    font-size: 22px;
     margin: 0;
+}
+
+h4 {
+    font-size: 18px;
 }
 
 a {
     color: #fbfbfb;
 }
 
+a:hover {
+	color: #fff;	
+}
+
 .container-fluid {
     padding-top: 80px;
     padding-bottom: 40px;
+}
+
+.no-padding-top {
+    padding-top: 0;
 }
 
 .container {
@@ -49,6 +65,41 @@ a {
 .container.brand,
 .container.top {
     padding: 0 20px 20px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    margin: 10px auto !important;
+}
+
+.hero {
+    margin-top: 80px !important;
+    margin-bottom: 0 !important;
+    padding: 100px 20px;
+    background-color: #f3f7f5;
+    background-image: url(../img/icewater.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero h1 {
+	color:  #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-container img {
+	width: 100%;
 }
 
 .navbar {
@@ -73,8 +124,16 @@ a {
     font-weight: bold;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 .row {
     padding: 10px 0 0;
+}
+
+.extra-padding {
+	padding: 20px 0;
 }
 
 .row.column {
@@ -88,6 +147,7 @@ a {
 
 .row.top {
     justify-content: space-between;
+    align-items: center;
 }
 
 .sus-score {
@@ -145,7 +205,7 @@ a {
 .score-denom {
     font-size: 16px;
     font-weight: bold;
-	color: #fff;
+    color: #fff;
 }
 
 .textile-badge {
@@ -160,7 +220,23 @@ a {
     background-color: #9B6A6C;
 }
 
+.row-wechat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.title-wechat {
+    padding: 10px 0;
+}
+
+.a-wechat {
+    background-color: #2f8819;
+    border-color: transparent;
+    width: auto;
+}
+
 .page-footer {
-	background-color: #f9f9f9;
-	font-size: 14px;
+    background-color: #f9f9f9;
+    font-size: 14px;
 }

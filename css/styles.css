@@ -168,13 +168,14 @@ a:hover {
     width: 50%;
 }
 
-.img_full_screen {
-    top: 0;
-    width: 100%;
+.dark-bold-link {
+	color: #333;
+	font-weight: 900;
+	display: inline-block;
 }
 
-.jumbotron {
-    margin-bottom: 0;
+.dark-bold-link:hover {
+	color:  #222;
 }
 
 .score {
@@ -216,8 +217,17 @@ a:hover {
     color: #fff;
 }
 
+.badge {
+	margin-right: 5px;
+	font-size: 14px;
+}
+
 .textile-badge {
     font-size: 20px;
+}
+
+.textile-badge-title {
+	font-size: 16px;
 }
 
 .progress-bar {
